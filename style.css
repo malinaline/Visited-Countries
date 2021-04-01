@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+#root {
+    display: flex;
+}
+
+#box-wrapper {
+    width: 100%;
+    padding-left: 350px;
+}
+
+#navbar {
+    background-color: lightgray;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+.clickable-list {
+    cursor: pointer;
+}
+
+#country-list {
+    display: flex;
+    align-items: flex-end;
+}
+
+#country-list ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#country-list h2 {
+    margin:0 0 40px 0;
+}
+
+#country-list li {
+    list-style: none;
+    border: blue solid 2px ;
+    padding: 10px;
+    margin: 0px 0 20px 0;
+    background-color: lightblue;
+}
+
+#country-list li:hover {
+    background-color: rgba(9, 53, 248, 0.349);
+}
+
+#visited-cities {
+    text-align: center;
+    border: solid 2px;
+    border-color: blue;
+    background-color: lightblue;
+    padding: 4px;
+    margin: 0;
+}
+
+#visited-cities:hover {
+    background-color: rgba(9, 53, 248, 0.349);
+}
+
+.box-wrapper{
+    background-color: #d8d2d2;
+}
+
+#city-wrapper {
+    font-size: 40px;
+}
+
+#city-wrapper > ul {
+    list-style-type: none;
+    font-size: 40px;
+}
+
+#city-wrapper > ul > li {
+    padding: 10px;
+}
+.clickable-list:hover {
+    background-color: rgba(231, 231, 231, 0.589);
+}
+
+#store-city{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+    background-color: rgba(127, 250, 11, 0.925);
+}
+
+#store-city:hover{
+    background-color: rgba(114, 221, 14, 0.925);
+}
+
+#deleteBtn {
+    cursor: pointer;
+    width: fit-content;
+    background-color: lightblue;
+    border: solid blue 2px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 6px;
+    bottom: 20px;
+}
+
+#deleteBtn:hover {
+    background-color: rgba(9, 53, 248, 0.349);
+}
+
+#wiki{
+    display: flex;
+}
+
+#wiki > p{
+    padding-left: 10px;
+    font-size: large;
+    max-width: 45%;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.visited-cities {
+    display: flex;
+    flex-direction: row;
+}
+
+.visited-cities div {
+    margin-left: 100px;
+}
